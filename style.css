@@ -227,8 +227,8 @@ padding: 10px;
 
 img{
   display: block;
-  margin-left: 59px;
-  margin-top: -314px;
+  margin-left: 67px;
+  margin-top: -200px;
   width: 100%;
 }
 
@@ -242,7 +242,7 @@ color: #fff;
 font-size: 20px;
 border-radius: 30px;
 width: 100px;
-margin-top: 30px;
+margin-top: -20px;
 margin-bottom: 30px;
 }
 
@@ -271,3 +271,39 @@ small{
   margin-top:3px;
   color: #0e0e0e2f;
 }
+
+.btn{
+  background-color: #fbfcfd60;
+  color: #292828a4;
+  font-size: 20px;
+  border-radius: 30px;
+  width: 95px;
+  height: 65px;
+  margin-top: 28px;
+  margin-bottom: 30px;
+  }
+
+  .btnActive{
+    background-color: #72abe3;
+    color: #fafafa;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 89px;
+    height: 65px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    }
+  
+  .btnSearch{
+    background-color: #0b0d1018;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 247px;
+    height: 45px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    opacity: 2;
+    }
+    
