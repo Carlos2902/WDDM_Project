@@ -118,3 +118,23 @@ p {
 .button:hover {
   background-color: #345baf;
 }
+
+/* new section*/
+
+.row{
+  display: flex;
+}
+
+.col{
+flex: 50%;
+background-color: #305694;
+padding: 10px;
+}
+
+.col2{
+  flex: 50%;
+  background-color: #98b9ef;
+  padding: 10px;
+  height: 300px;
+  }
+
