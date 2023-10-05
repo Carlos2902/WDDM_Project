@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Agency Q&A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .question {
+            font-size: 20px;
+            color: #0073e6;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        .answer {
+            font-size: 16px;
+            display: none;
+            margin-top: 10px;
+        }
+
+        .question:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Frequently Asked Questions</div>
+    <div class="container">
+        <div class="faq">
+            <div class="question">1. How do I book a trip?</div>
+            <div class="answer">To book a trip, you can visit our website and use our online booking system. Alternatively, you can contact our customer service team for assistance.</div>
+        </div>
+        <div class="faq">
+            <div class="question">2. What destinations do you offer?</div>
+            <div class="answer">We offer a wide range of travel destinations, including exotic locations, cultural tours, and adventure trips. You can browse our website to explore the options.</div>
+        </div>
+        <div class="faq">
+            <div class="question">3. What payment methods do you accept?</div>
+            <div class="answer">We accept various payment methods, including credit cards, bank transfers, and online payment platforms. Please check our website for more details.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question">4. Can I cancel my booking?</div>
+            <div class="answer">Yes, you can cancel your booking. Please review our cancellation policy on our website or contact our support team for assistance.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question">5. Are travel insurance options available?</div>
+            <div class="answer">Yes, we offer travel insurance options to provide you with peace of mind during your trip. Details can be found on our website.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question">6. Do you provide group discounts?</div>
+            <div class="answer">Yes, we offer group discounts for larger travel groups. Please contact our sales team for group booking inquiries.</div>
+        </div>
+    </div>
+    <script>
+        const questions = document.querySelectorAll('.question');
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
